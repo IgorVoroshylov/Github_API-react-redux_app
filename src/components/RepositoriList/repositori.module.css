@@ -1,0 +1,63 @@
+.repo {
+   display: flex;
+   justify-content: space-between;
+   border: 1px solid rgb(179, 179, 179);
+   border-radius: 5px;
+   margin-top: 10px;
+   padding: 20px;
+   background-color: #fff;
+}
+
+.repo_avatar {
+   margin-bottom: 10px;
+}
+
+.repo_avatar img {
+   max-width: 100px;
+}
+
+.repo_name {
+   font-size: 24px;
+   margin-bottom: 10px;
+}
+
+.repo_star {
+   font-size: 18px;
+   margin-bottom: 10px;
+}
+
+.repo_info {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.repo_info_img {
+   align-self: flex-end;
+}
+
+.repo_info_img img {
+   width: 30px;
+   height: 30px;
+}
+
+.repo_button button {
+   border: 1px solid rgb(182, 182, 182);
+   border-radius: 5px;
+   background-color: transparent;
+   padding: 10px;
+   font-size: 14px;
+   text-transform: uppercase;
+   color: black;
+   transition: 0.2s;
+   margin-left: 10px;
+}
+
+.repo_button button:hover {
+   color: white;
+   background-color: rgb(54, 54, 54);
+}
+
+.info_string {
+   text-align: center;
+}

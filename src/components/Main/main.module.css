@@ -1,0 +1,13 @@
+.main {
+   display: flex;
+   flex-direction: column;
+   padding: 20px;
+   justify-content: space-between;
+}
+
+.select select{
+   width: 100px;
+   padding: 5px;
+   border-radius: 5px;
+}
+

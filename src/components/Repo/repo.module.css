@@ -1,0 +1,71 @@
+.container {
+   max-width: 1080px;
+   width: 100%;
+   margin: 0 auto;
+
+}
+
+.repo {
+   padding-top: 10px;
+}
+
+.repo button {
+   border: 1px solid rgb(138, 138, 138);
+   border-radius: 5px;
+   padding: 10px;
+   background-color: #fff;
+   color: #000;
+   transition: 0.2s;
+}
+
+.main_info {
+   background-color: #fff;
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+.main_info_img {
+   margin-top: 20px;
+   height: 200px;
+   width: 200px;
+   overflow: hidden;
+}
+
+.main_info_img img {
+   height: 100%;
+   width: 100%;
+   object-fit: contain;
+}
+
+.main_info_login {
+   margin-top: 10px;
+   font-size: 30px;
+}
+
+.main_info_name {
+   margin-top: 10px;
+   font-size: 18px;
+}
+
+.main_info_created_at {
+   margin-top: 10px;
+   font-size: 16px;
+}
+
+.main_info_description {
+   margin-top: 10px;
+   font-size: 16px;
+}
+
+.main_info_git_url {
+   display: inline-block;
+   margin-top: 10px;
+   font-size: 16px;
+}
+
+.main_info_stargazers_count {
+   margin-top: 10px;
+   font-size: 16px;
+}
+

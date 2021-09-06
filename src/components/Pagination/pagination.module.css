@@ -1,0 +1,27 @@
+.pagination {
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+}
+
+.page {
+   border: 1px solid rgb(175, 175, 175);
+   border-radius: 5px;
+   padding: 10px;
+   margin-right: 5px;
+   transition: 0.3s;
+}
+
+.page:hover {
+   background-color: rgb(83, 112, 241);
+   color: #fff;
+}
+
+.active {
+   background-color: rgb(83, 112, 241);
+   color: #fff;
+}
+
+.page:last-child {
+   margin-right: 0px;
+}
