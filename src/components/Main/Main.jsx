@@ -29,7 +29,7 @@ const Main = () => {
 
    useEffect(() => {
       dispatch(getRepositoriesThunk(searchQuery, perPage, currentPage));
-   }, [currentPage, searchQuery]);
+   }, [currentPage, searchQuery, perPage, dispatch]);
 
    const chengePage = (page) => {
       dispatch(setCurrentPage(page));

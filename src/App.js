@@ -13,7 +13,7 @@ const App = () => {
   const favouritesIdList = useSelector(getFavouritesListId);
   const [spleshScreenTogle, setSpleshScreenTogle] = useState(true);
 
-  setTimeout(() => {
+  const spleshTimeout = setTimeout(() => {
     setSpleshScreenTogle(false);
   }, 2000);
 
@@ -22,6 +22,9 @@ const App = () => {
     let favouritesId = JSON.parse(localStorage.getItem('favourites'));
     if(favouritesId && favouritesId.length > 0) {
       favouritesId.forEach(item => dispatch(setFavouritesListId(item)));
+    }
+    return () => {
+      clearTimeout(spleshTimeout)
     }
   }, []);
 

@@ -15,7 +15,7 @@ const Repo = ({history}) => {
 
    useEffect(() => {
       dispatch(getRepoThunk(username, reponame));
-   }, []);
+   }, [dispatch, reponame, username]);
 
    if(fetchingRepo) {
       return <Preloader/>;
